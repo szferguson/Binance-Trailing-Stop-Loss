@@ -59,4 +59,4 @@ This is the amount in satoshis (or USD) you would like the stop-loss to be retai
 
 
 ## License
-Copyright (c) 2018 Steven Ferguson, released under GPLv3.
+Released under GPLv3.

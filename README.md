@@ -16,8 +16,9 @@ apt-get install python-pip -y
 pip install ccxt
 ```
 \
-**Configure API keys**
 
+## Configure API keys
+\
 Obtain an API key [here](https://www.binance.com/userCenter/createApi.html)
 
 Then modify `config.py` and insert your API key and secret

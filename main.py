@@ -5,6 +5,7 @@ def main(options):
 
     if options.type not in ['buy', 'sell']:
         print("Error: Please use valid trail type (Ex: 'buy' or 'sell')")
+        return
 
     task = StopTrail(options.symbol, options.type, options.size, options.interval)
     task.run()

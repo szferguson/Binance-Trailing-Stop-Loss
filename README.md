@@ -1,6 +1,8 @@
 # Binance-Trailing-Stop-Loss
 Provides a dynamic stop-loss that automatically adjusts as the price increases or decreases (depending on mode specified)
 
+
+
 ## Installation
 Clone the repository
 `git clone https://github.com/sf04/Binance-Trailing-Stop-Loss`
@@ -10,6 +12,7 @@ Install required libraries
 apt-get install python-pip -y
 pip install ccxt
 ```
+
 
 
 ## Running
@@ -32,9 +35,11 @@ optional arguments:
 ```
 
 
+
 **Important note**
 
 If you are running in sell mode, it is assumed that you have already purchased the coins. If you are running in buy mode, it will use the total available balance in the base (USDT, BTC, etc). I will likely add an option later to specify investment ratio.
+
 
 
 ## About the bot
@@ -50,6 +55,7 @@ If the **sell** option is set, the bot will initially place a stop-loss `size` s
 **Size**
 
 This is the amount in satoshis (or USD) you would like the stop-loss to be retained at. The difference between the current price and stop-loss will never be larger than this amount.
+
 
 
 ## License

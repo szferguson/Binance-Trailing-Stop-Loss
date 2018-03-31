@@ -4,14 +4,20 @@ Provides a dynamic stop-loss that automatically adjusts as the price increases o
 
 
 ## Installation
-Clone the repository
+
+**Clone the repository**
 `git clone https://github.com/sf04/Binance-Trailing-Stop-Loss`
 
-Install required libraries
+**Install required libraries**
 ```
 apt-get install python-pip -y
 pip install ccxt
 ```
+
+**Configure API keys**
+Obtain an API key [here](https://www.binance.com/userCenter/createApi.html)
+
+Then modify `config.py` and insert your API key and secret
 
 
 

@@ -6,7 +6,9 @@ Provides a dynamic stop-loss that automatically adjusts as the price increases o
 ## Installation
 
 **Clone the repository**
-```git clone https://github.com/sf04/Binance-Trailing-Stop-Loss```
+```
+git clone https://github.com/sf04/Binance-Trailing-Stop-Loss
+```
 
 **Install required libraries**
 ```

@@ -1,7 +1,5 @@
 # Binance-Trailing-Stop-Loss
 Provides a dynamic stop-loss that automatically adjusts as the price increases or decreases (depending on mode specified)
-<<<<<<< HEAD
-=======
 
 
 
@@ -62,4 +60,3 @@ This is the amount in satoshis (or USD) you would like the stop-loss to be retai
 
 ## License
 Released under GPLv3.
->>>>>>> 54319d3f3e22c2c03536dd32cc0cad807a174010
